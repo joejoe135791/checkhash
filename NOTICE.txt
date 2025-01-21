@@ -1,0 +1,12 @@
+Checkhash program, created by joejoe135791.
+if you download this from the same repository and do not fully trust it, download this program from the source at https://github.com/joejoe135791/checkhash
+
+DO NOT MAKE AND PUBLISH UNAUTHORIZED CHANGES TO THIS TEXT FILE!
+Unauthorized changes include, but are not limited to:
+* Changing the source repository link (https://github.com/joejoe135791/checkhash)
+* deleting or not providing this text file (NOTICE.txt)
+* modifying this text file to change the original author (joejoe135791)
+
+this program is Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0
