@@ -16,9 +16,9 @@ while True:
 userHashInput = input("Please enter the SHA256 hash given by the repository: ")
 print(f"generating SHA256 hash of '{userFilenameInput}'")
 print(f"Your SHA256 hash:\n{userHashInput}\n")
-generatedFIleHash = hashlib.sha256(open(userFilenameInput,'rb').read()).hexdigest()
-print(f"Generated SHA256 hash of {filePathInput}:\n{generatedFIleHash}\n")
-if userHashInput == generatedFIleHash:
+generatedFileHash = hashlib.sha256(open(userFilenameInput,'rb').read()).hexdigest()
+print(f"Generated SHA256 hash of {filePathInput}:\n{generatedFileHash}\n")
+if userHashInput == generatedFileHash:
     print(f"SHA256 hash verified, this program has likely not been tampered with")
 else:
     print("THE SHA256 HASHES DO NOT MATCH UP! This program may have been modified or tampered with")
