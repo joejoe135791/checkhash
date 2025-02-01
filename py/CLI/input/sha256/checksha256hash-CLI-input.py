@@ -20,5 +20,9 @@ generatedFileHash = hashlib.sha256(open(userFilenameInput,'rb').read()).hexdiges
 print(f"Generated SHA256 hash of {filePathInput}:\n{generatedFileHash}\n")
 if userHashInput == generatedFileHash:
     print(f"SHA256 hash verified, this program has likely not been tampered with")
+    input("Press enter to close")
+    sys.exit("bye bye")
 else:
     print("THE SHA256 HASHES DO NOT MATCH UP! This program may have been modified or tampered with")
+    input("Press enter to close")
+    sys.exit("bye bye")
